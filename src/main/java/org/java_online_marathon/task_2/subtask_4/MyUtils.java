@@ -71,32 +71,3 @@ public class MyUtils {
         return result;
     }
 }
-
-
-//        Employee maxExpEmp = new Employee();
-//        Employee maxPayEmp = new Employee();
-//
-//        for (int i = 0; i < workers.size(); i++) {
-//            if (workers.get(i).getExperience() > maxExpEmp.getExperience()) {
-//                maxExpEmp = workers.get(i);
-//            }
-//            if (workers.get(i).getPayment().doubleValue() > maxPayEmp.getPayment().doubleValue()) {
-//                maxPayEmp = workers.get(i);
-//            }
-//        }
-//
-//        list.add(maxExpEmp);
-//        list.add(maxPayEmp);
-//
-//        for (int i = 0; i < workers.size(); i++) {
-//            if (workers.get(i).getExperience() == maxExpEmp.getExperience() || workers.get(i).getExperience() == maxExpEmp.getExperience() - 1) {
-//                if (!list.contains(workers.get(i))) {
-//                    list.add(workers.get(i));
-//                }
-//            }
-//            if (workers.get(i).getPayment().doubleValue() == maxPayEmp.getPayment().doubleValue() || workers.get(i).getPayment().doubleValue() >= maxPayEmp.getPayment().doubleValue() - 500) {
-//                if (!list.contains(workers.get(i))) {
-//                    list.add(workers.get(i));
-//                }
-//            }
-//        }
